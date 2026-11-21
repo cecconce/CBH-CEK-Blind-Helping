@@ -12,7 +12,8 @@ Stato: ✅ disponibile · 📦 ordinato / in arrivo · 🛒 da acquistare · �
 | ✅ | Hub USB-C | 1 | Monitor, tastiera, alimentazione | |
 | ✅ | Modulino Distance (VL53L4CD) | 1 | Ostacolo frontale vicino | Portata ~1,2 m |
 | ✅ | Modulino Vibro | 1 | Feedback tattile | |
-| ✅ | Sensore ToF VL53L7CX 8×8 | alcuni (da contare) | Zona vicina a griglia, campo visivo largo | Già acquistati dal referente; da usare se serve |
+| ✅ | Sensore ToF VL53L1X (modulo rosso «VL53LXX») | 2 | Distanza a punto singolo fino a 4 m nominali | Del referente. Pin da saldare; stesso indirizzo I²C dei Modulino Distance (serve il Modulino Hub o il pin SHUT) |
+| 🤔 | Sensore ToF VL53L7CX 8×8 | 1 | Zona vicina a griglia, campo visivo largo | ~25 €, non acquistato |
 | ✅ | Webcam Logitech C270 | 1 | Riconoscimento oggetti | |
 | 📦 | Modulino Movement | 1 | Fermo / cammina, passi | |
 | 🛒 | Qwiic Cables Bundle (TPX00232) | 1–2 | Allungare la catena Modulino | ~10,60 € IVA incl. (Arduino Store) |

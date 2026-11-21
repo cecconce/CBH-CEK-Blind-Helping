@@ -57,3 +57,19 @@ Un allarme a 2 m basta fino a 1,4 m/s. Un allarme a 1,2 m (solo Modulino Distanc
 - Consumi reali di UNO Q e camera.
 - Portata dei ToF su ostacoli sottili e scuri.
 - Rilevamento del gradino con TF-Luna + IMU.
+
+## Aggiunta: piano senza camera con 2 VL53L1X (`cbh_l1x.py`)
+Il referente ha due moduli VL53L1X (cono di 27°, portata nominale 4 m). Aggiunti ai 4 Modulino Distance e al TF-Luna, senza camera:
+
+| Ostacolo | Senza VL53L1X | Con 2 VL53L1X (uno 12° in alto, uno 20° in basso) |
+|---|---|---|
+| Persona | 0,35 m | 2,10 m |
+| Muro | 1,50 m | 2,50 m |
+| Bordo tavolo | 0,70 m | 1,45 m |
+| Transenna a 1 m | 0,40 m | 1,15 m (tardi) |
+| Paletto, sedia, cartello alto, ramo | mai o tardi | mai o tardi |
+
+- Ostacoli visti in tempo (allarme ad almeno 1,29 m): da 2 su 10 a 4 su 10.
+- Con luce forte la portata può scendere verso 1,3 m e il vantaggio sparisce (2 su 10).
+- Conclusione: i VL53L1X migliorano il piano di riserva su persone e pareti, ma non sostituiscono la camera di profondità.
+
