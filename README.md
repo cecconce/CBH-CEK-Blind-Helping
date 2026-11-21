@@ -35,6 +35,7 @@ docs/
 materiali/
   lista-materiali.md  cosa c'è, cosa è ordinato, cosa comprare
 firmware/             sketch Arduino e app per Arduino App Lab
+simulazione/          simulazione di fattibilità (risultati + script Python)
 ```
 
 ## Aggiornamento settimanale
