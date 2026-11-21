@@ -45,7 +45,7 @@ Prezzi indicativi (nov. 2026): OAK-D Lite circa 189–220 €; Modulino circa 11
 | Stato | Componente | Q.tà | Uso | Note |
 |---|---|---|---|---|
 | 🤔 | Sensore ToF VL53L7CX 8×8 | 1 | Zona vicina a griglia, campo visivo largo | ~25 €, non acquistato |
-| 🤔 | Modulo audio (es. DFPlayer Mini) o cuffie a conduzione ossea | 1 | Ritorno vocale | Da decidere: audio da Linux o modulo dedicato |
+| 🤔 | Cuffie Bluetooth a conduzione ossea | 1 | Ritorno vocale | La UNO Q ha già Wi-Fi 5 e Bluetooth 5.1 a bordo (lato Linux): non serve un modulo audio. Da verificare l'audio Bluetooth dentro App Lab |
 
 ## Giubbino (reparto Moda) — anno 2
 
