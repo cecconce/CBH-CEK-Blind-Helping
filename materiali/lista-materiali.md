@@ -37,6 +37,7 @@ Un prototipo completo. Totale stimato circa 450–550 €. Fornitori proposti: R
 | 🛒 | 12 | Kit cavi Qwiic | SparkFun | KIT-15081 | 1 | Catena dei Modulino |
 | 🛒 | 13 | LiDAR ToF TF-Luna 0,2–8 m | Benewake | TF-Luna | 1 | Gradini in discesa: puntato a terra circa 1,5 m davanti ai piedi |
 | 🤔 | 14 | Riga libera: eventuale Arduino USB Camera | Arduino | TPX00246 | 1 | Piano B se la OAK-D Lite non funziona sulla UNO Q |
+| 🛒 | 15 | Cuffie Bluetooth a conduzione ossea | a scelta | — | 1 | Ritorno vocale tramite il Bluetooth 5.1 della UNO Q; lasciano libere le orecchie. Aggiunta dopo la compilazione del modulo |
 
 Prezzi indicativi (nov. 2026): OAK-D Lite circa 189–220 €; Modulino circa 11 € + IVA l'uno; TF-Luna circa 36 €.
 
@@ -45,7 +46,6 @@ Prezzi indicativi (nov. 2026): OAK-D Lite circa 189–220 €; Modulino circa 11
 | Stato | Componente | Q.tà | Uso | Note |
 |---|---|---|---|---|
 | 🤔 | Sensore ToF VL53L7CX 8×8 | 1 | Zona vicina a griglia, campo visivo largo | ~25 €, non acquistato |
-| 🤔 | Cuffie Bluetooth a conduzione ossea | 1 | Ritorno vocale | La UNO Q ha già Wi-Fi 5 e Bluetooth 5.1 a bordo (lato Linux): non serve un modulo audio. Da verificare l'audio Bluetooth dentro App Lab |
 
 ## Giubbino (reparto Moda) — anno 2
 
@@ -66,4 +66,4 @@ Prezzi indicativi (nov. 2026): OAK-D Lite circa 189–220 €; Modulino circa 11
 |---|---|---|
 | 2026-10 | Kit UNO Q + hub + Modulino Distance + Vibro | Arrivato |
 | 2026-10 | Modulino Movement | Ordinato |
-| 2026-11-21 | Richiesta d'acquisto anno 1 (13 righe) | Compilata, da consegnare al DSGA |
+| 2026-11-21 | Richiesta d'acquisto anno 1 (13 righe + cuffie Bluetooth da aggiungere al modulo) | Compilata, da consegnare al DSGA |
