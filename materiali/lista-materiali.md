@@ -12,10 +12,10 @@ Stato: ✅ disponibile · 📦 ordinato / in arrivo · 🛒 da acquistare · �
 | ✅ | Hub USB-C | 1 | Monitor, tastiera, alimentazione | |
 | ✅ | Modulino Distance (VL53L4CD) | 1 | Ostacolo frontale vicino | Portata ~1,2 m |
 | ✅ | Modulino Vibro | 1 | Feedback tattile | |
+| ✅ | Sensore ToF VL53L7CX 8×8 | alcuni (da contare) | Zona vicina a griglia, campo visivo largo | Già acquistati dal referente; da usare se serve |
 | ✅ | Webcam Logitech C270 | 1 | Riconoscimento oggetti | |
 | 📦 | Modulino Movement | 1 | Fermo / cammina, passi | |
 | 🛒 | Qwiic Cables Bundle (TPX00232) | 1–2 | Allungare la catena Modulino | ~10,60 € IVA incl. (Arduino Store) |
-| 🤔 | Sensore ToF VL53L7CX | 1 | Campo visivo più largo del VL53L5CX | ~25 € |
 | 🤔 | Altri Modulino Vibro | 2–3 | Vibrazione sinistra / centro / destra | |
 | 🤔 | Modulo audio (es. DFPlayer Mini) o cuffie a conduzione ossea | 1 | Ritorno vocale | Da decidere: audio da Linux o modulo dedicato |
 | 🤔 | Power bank USB-C | 1 | Alimentazione indossabile | Dimensionare sui consumi reali della UNO Q (Linux sempre attivo) |
