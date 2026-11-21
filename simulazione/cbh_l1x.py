@@ -1,4 +1,4 @@
-"""Piano senza camera con 2 VL53L1X (cono 27 gradi, portata nominale 3,6 m al chiuso)."""
+"""Piano senza camera con 2 o 3 VL53L1X (cono 27 gradi, portata nominale 3,6 m al chiuso)."""
 import numpy as np
 from cbh_sim import ToF, Luna, OBST, H
 
@@ -27,6 +27,10 @@ if __name__ == "__main__":
         "1 dritto + 1 a 25 gradi in basso": [L1X(0, 0), L1X(0, -25)],
         "1 a 12 in alto + 1 a 20 in basso": [L1X(0, 12), L1X(0, -20)],
         "1 a 12 in alto + 1 a 20 in basso, luce forte (1,3 m)": [L1X(0, 12, rmax=1.3), L1X(0, -20, rmax=1.3)],
+        "3 L1X: 12 in alto, 20 in basso, 38 in basso": [L1X(0, 12), L1X(0, -20), L1X(0, -38)],
+        "3 L1X: 15 in alto, 10 in basso, 33 in basso": [L1X(0, 15), L1X(0, -10), L1X(0, -33)],
+        "3 L1X: 22 in alto, 0, 30 in basso": [L1X(0, 22), L1X(0, 0), L1X(0, -30)],
+        "3 L1X: 12 in alto, 20 e 38 in basso, luce forte (1,3 m)": [L1X(0, 12, rmax=1.3), L1X(0, -20, rmax=1.3), L1X(0, -38, rmax=1.3)],
     }
     res = {k: first(base + v) for k, v in cfgs.items()}
     print(f"{'primo allarme [m]':28s} " + " | ".join(f"{i}" for i in range(len(cfgs))))

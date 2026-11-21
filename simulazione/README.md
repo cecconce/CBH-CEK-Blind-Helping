@@ -58,18 +58,22 @@ Un allarme a 2 m basta fino a 1,4 m/s. Un allarme a 1,2 m (solo Modulino Distanc
 - Portata dei ToF su ostacoli sottili e scuri.
 - Rilevamento del gradino con TF-Luna + IMU.
 
-## Aggiunta: piano senza camera con 2 VL53L1X (`cbh_l1x.py`)
-Il referente ha due moduli VL53L1X (cono di 27°, portata nominale 4 m). Aggiunti ai 4 Modulino Distance e al TF-Luna, senza camera:
+## Aggiunta: piano senza camera con 3 VL53L1X (`cbh_l1x.py`)
+Il referente ha tre moduli VL53L1X (cono di 27°, portata nominale 4 m). Aggiunti ai 4 Modulino Distance e al TF-Luna, senza camera. Distanza del primo allarme (in tempo se almeno 1,29 m):
 
-| Ostacolo | Senza VL53L1X | Con 2 VL53L1X (uno 12° in alto, uno 20° in basso) |
-|---|---|---|
-| Persona | 0,35 m | 2,10 m |
-| Muro | 1,50 m | 2,50 m |
-| Bordo tavolo | 0,70 m | 1,45 m |
-| Transenna a 1 m | 0,40 m | 1,15 m (tardi) |
-| Paletto, sedia, cartello alto, ramo | mai o tardi | mai o tardi |
+| Ostacolo | Senza VL53L1X | Con 2 (12° in alto, 20° in basso) | Con 3 (22° in alto, dritto, 30° in basso) |
+|---|---|---|---|
+| Persona | 0,35 m | 2,10 m | 2,20 m |
+| Muro | 1,50 m | 2,50 m | 2,50 m |
+| Sedia/panchina 45 cm | mai | mai | 1,60 m |
+| Cartello a 1,7–2,0 m | mai | mai | 1,40 m |
+| Bordo tavolo 72 cm | 0,70 m | 1,45 m | 1,30 m |
+| Cordolo 15 cm | 1,50 m | 1,50 m | 1,80 m |
+| Transenna a 1 m | 0,40 m | 1,15 m (tardi) | 0,85 m (tardi) |
+| Ramo 3 cm a 1,75 m | 0,40 m | 0,40 m | 0,90 m (tardi) |
+| Palo 5 cm, paletto 60 cm | mai | mai | mai |
+| **In tempo** | **2 su 10** | **4 su 10** | **6 su 10** |
 
-- Ostacoli visti in tempo (allarme ad almeno 1,29 m): da 2 su 10 a 4 su 10.
 - Con luce forte la portata può scendere verso 1,3 m e il vantaggio sparisce (2 su 10).
-- Conclusione: i VL53L1X migliorano il piano di riserva su persone e pareti, ma non sostituiscono la camera di profondità.
-
+- Il sensore puntato in basso inquadra anche il pavimento: il firmware deve togliere quella lettura di fondo (non modellato).
+- Conclusione: tre VL53L1X rendono il piano di riserva utilizzabile al chiuso su ostacoli grandi, ma gli ostacoli sottili e bassi restano scoperti: la camera di profondità resta necessaria per il requisito completo.
