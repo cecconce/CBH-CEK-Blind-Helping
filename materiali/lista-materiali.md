@@ -37,9 +37,11 @@ Un prototipo completo. Totale stimato circa 450–550 €. Fornitori proposti: R
 | 🛒 | 12 | Kit cavi Qwiic | SparkFun | KIT-15081 | 1 | Catena dei Modulino |
 | 🛒 | 13 | LiDAR ToF TF-Luna 0,2–8 m | Benewake | TF-Luna | 1 | Gradini in discesa: puntato a terra circa 1,5 m davanti ai piedi |
 | 🤔 | 14 | Riga libera: eventuale Arduino USB Camera | Arduino | TPX00246 | 1 | Piano B se la OAK-D Lite non funziona sulla UNO Q |
-| 🛒 | 15 | Cuffie Bluetooth a conduzione ossea | a scelta | — | 1 | Ritorno vocale tramite il Bluetooth 5.1 della UNO Q; lasciano libere le orecchie. Aggiunta dopo la compilazione del modulo |
+| 🛒 | 15 | Cuffie Bluetooth a conduzione ossea | Creative (o Shokz) | Outlier Free+ (alt.: OpenMove) | 1 | Ritorno vocale tramite il Bluetooth 5.1 della UNO Q; lasciano libere le orecchie. Marchi con assistenza e recensioni indipendenti: evitare i modelli senza marca da 30–40 €. Aggiunta dopo la compilazione del modulo |
 
-Prezzi indicativi (nov. 2026): OAK-D Lite circa 189–220 €; Modulino circa 11 € + IVA l'uno; TF-Luna circa 36 €.
+Prezzi indicativi (nov. 2026): OAK-D Lite circa 189–220 €; Modulino circa 11 € + IVA l'uno; TF-Luna circa 36 €; cuffie a conduzione ossea di marca circa 65–100 €, da verificare sui listini.
+
+La prova di compatibilità dell'audio Bluetooth si fa prima con le cuffie personali del referente: non serve attendere l'acquisto.
 
 ## Da valutare
 
