@@ -1,0 +1,7 @@
+config,velocita,falsi_stop_al_minuto
+A,0.6,0.15
+A,1.0,0.50
+A,1.4,0.00
+B,0.6,0.30
+B,1.0,0.50
+B,1.4,0.70

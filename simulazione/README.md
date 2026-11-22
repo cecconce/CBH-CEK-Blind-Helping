@@ -77,3 +77,15 @@ Il referente ha tre moduli VL53L1X (cono di 27°, portata nominale 4 m). Aggiunt
 - Con luce forte la portata può scendere verso 1,3 m e il vantaggio sparisce (2 su 10).
 - Il sensore puntato in basso inquadra anche il pavimento: il firmware deve togliere quella lettura di fondo (non modellato).
 - Conclusione: tre VL53L1X rendono il piano di riserva utilizzabile al chiuso su ostacoli grandi, ma gli ostacoli sottili e bassi restano scoperti: la camera di profondità resta necessaria per il requisito completo.
+
+---
+
+# Test di utilizzo simulato — 22 novembre 2026
+Percorso in corridoio con 10 ostacoli, tutti i sensori (OAK-D Lite, 4 Modulino Distance, **3 VL53L1X**, TF-Luna, IMU), logica d'allarme a due livelli e tempi di reazione della persona. Dettagli, registri e script in [`test-utilizzo/`](test-utilizzo/).
+
+| Ostacoli superati (≥ 90% delle prove) | 0,6 m/s | 1,0 m/s | 1,4 m/s |
+|---|---|---|---|
+| A – tutti i sensori | 9/10 | 8/10 | 8/10 |
+| B – senza camera | 4/10 | 2/10 | 1/10 |
+
+Punti critici: **vetrata** (nessun sensore la vede in tempo), **gradino** con il Luna a 1,5 m (68% a 1,0 m/s; puntandolo a 2,0 m sale al 100%), necessità di stimare il **pavimento nella camera** (altrimenti 8–22 falsi STOP al minuto).

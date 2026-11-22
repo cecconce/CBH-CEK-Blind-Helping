@@ -1,0 +1,52 @@
+CBH - registro del test simulato - configurazione B_senza_camera - 1,0 m/s
+
+=== Prova 1: persona  (spostato +0.06 m dal centro; disturbi: nessuno)
+  t=  3.34 s  pos 3.34 m  rileva: VL dritto     distanza reale 1.66 m
+  t=  3.34 s  pos 3.34 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo davanti a 2 metri» [fonte VL dritto]
+  t=  3.34 s  pos 3.34 m  reazione 0.46 s, frenata 1.4 m/s² → si ferma a 0.82 m dall'ostacolo, margine +0.47 m → OK
+
+=== Prova 2: sedia  (spostato -0.02 m dal centro; disturbi: sole)
+  t= 11.48 s  pos 4.14 m  rileva: TF-Luna       distanza reale 0.86 m
+  t= 11.48 s  pos 4.14 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo in basso a 1 metro» [fonte TF-Luna]
+  t= 11.48 s  pos 4.14 m  reazione 0.82 s, frenata 1.4 m/s² → si ferma a -0.34 m dall'ostacolo, margine -0.69 m → CONTATTO
+
+=== Prova 3: cartello testa  (spostato -0.25 m dal centro; disturbi: nessuno)
+  t= 19.00 s  pos 3.52 m  rileva: VL alto +22   distanza reale 1.48 m
+  t= 19.00 s  pos 3.52 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo in alto a 1,5 metri» [fonte VL alto +22]
+  t= 19.00 s  pos 3.52 m  reazione 0.35 s, frenata 1.7 m/s² → si ferma a 0.80 m dall'ostacolo, margine +0.80 m → OK
+
+=== Prova 4: bordo tavolo  (spostato +0.10 m dal centro; disturbi: nessuno)
+  t= 27.44 s  pos 4.44 m  rileva: VL basso -30  distanza reale 0.56 m
+  t= 27.44 s  pos 4.44 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo in basso a 1 metro» [fonte VL basso -30]
+  t= 27.44 s  pos 4.44 m  reazione 0.56 s, frenata 1.8 m/s² → si ferma a -0.30 m dall'ostacolo, margine -0.65 m → CONTATTO
+
+=== Prova 5: palo sottile  (spostato +0.08 m dal centro; disturbi: sole)
+  t= 36.10 s  pos 4.66 m  rileva: VL dritto     distanza reale 0.34 m
+  t= 36.10 s  pos 4.66 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo davanti a 0,5 metri» [fonte VL dritto]
+  t= 36.10 s  pos 4.66 m  reazione 0.60 s, frenata 1.6 m/s² → si ferma a -0.61 m dall'ostacolo, margine -0.96 m → CONTATTO
+
+=== Prova 6: paletto basso  (spostato -0.05 m dal centro; disturbi: pavimento scuro)
+  t= 43.82 s  pos 3.72 m  rileva: TF-Luna       distanza reale 1.28 m
+  t= 43.82 s  pos 3.72 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo in basso a 1,5 metri» [fonte TF-Luna (memoria)]
+  t= 43.82 s  pos 3.72 m  reazione 0.70 s, frenata 1.6 m/s² → si ferma a 0.24 m dall'ostacolo, margine -0.11 m → CONTATTO
+
+=== Prova 7: zaino a terra  (spostato +0.25 m dal centro; disturbi: nessuno)
+  t= 52.50 s  pos 4.68 m  NESSUN ALLARME STOP in tempo → CONTATTO con l'ostacolo
+
+=== Prova 8: vetrata  (spostato +0.23 m dal centro; disturbi: nessuno)
+  t= 60.48 s  pos 3.98 m  rileva: VL alto +22   distanza reale 1.02 m
+  t= 60.48 s  pos 3.98 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo in alto a 1 metro» [fonte VL alto +22 (memoria)]
+  t= 60.48 s  pos 3.98 m  reazione 0.83 s, frenata 1.7 m/s² → si ferma a -0.14 m dall'ostacolo, margine -0.49 m → CONTATTO
+
+=== Prova 9: gradino discesa  (spostato +0.18 m dal centro; disturbi: pavimento scuro)
+  t= 64.62 s  pos 0.14 m  FALSO ALLARME STOP da TF-Luna (lettura di pavimento): la persona si ferma e riparte
+  t= 67.94 s  pos 3.46 m  rileva: TF-Luna       distanza reale 1.54 m
+  t= 67.94 s  pos 3.46 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Gradino in discesa» [fonte TF-Luna]
+  t= 67.94 s  pos 3.46 m  reazione 0.35 s, frenata 1.4 m/s² → si ferma a 0.81 m dall'ostacolo, margine +0.46 m → OK
+
+=== Prova 10: muro  (spostato -0.15 m dal centro; disturbi: nessuno)
+  t= 73.88 s  pos 1.94 m  rileva: VL dritto     distanza reale 3.06 m
+  t= 73.88 s  pos 1.94 m  ALLARME 1 - impulso breve Vibro + voce in cuffia (arriva tra 0.32 s): «Ostacolo davanti a 3 metri» [fonte VL dritto]
+  t= 74.74 s  pos 2.80 m  rileva: VL alto +22   distanza reale 2.20 m
+  t= 74.84 s  pos 2.90 m  ALLARME 2 - STOP: vibrazione continua sx+dx, buzzer; «Ostacolo in alto a 2 metri» [fonte VL alto +22 (memoria)]
+  t= 74.84 s  pos 2.90 m  reazione 0.66 s, frenata 0.9 m/s² → si ferma a 0.87 m dall'ostacolo, margine +0.52 m → OK
